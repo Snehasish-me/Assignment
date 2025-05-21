@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #c6c3e1;
+}
+
+.controls {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controls button {
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #3423cc;
+    color: #fff;
+    font-weight: 500;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+th,
+td:focus {
+    outline: none;
+}
+
+#tableContainer {
+    border-radius: 8px;
+}
